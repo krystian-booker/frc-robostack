@@ -42,18 +42,7 @@ libgl-devel = "*"
 # Each environment corresponds to a different ROS distribution
 # and can be activated using the `pixi run/shell -e <environment>` command.
 [environments]
-noetic = { features = ["noetic", "build"] }
 humble = { features = ["humble", "build"] }
-jazzy = { features = ["jazzy", "build"] }
-kilted = { features = ["kilted", "build"] }
-
-### ROS Noetic ####  
-[feature.noetic]
-channels = ["https://prefix.dev/robostack-noetic"]
-
-[feature.noetic.dependencies]
-ros-noetic-desktop = "*"
-catkin_tools = "*"
 
 ### ROS Humble ####
 [feature.humble]
@@ -61,17 +50,3 @@ channels = ["https://prefix.dev/robostack-humble"]
 
 [feature.humble.dependencies]
 ros-humble-desktop = "*"
-
-### ROS Jazzy ####
-[feature.jazzy]
-channels = ["https://prefix.dev/robostack-jazzy"]
-
-[feature.jazzy.dependencies]
-ros-jazzy-desktop = "*"
-
-### ROS Kilted ####
-[feature.kilted]
-channels = ["https://prefix.dev/robostack-kilted"]
-
-[feature.kilted.dependencies]
-ros-kilted-desktop = "*"
