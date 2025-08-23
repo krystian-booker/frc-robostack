@@ -644,6 +644,8 @@ environments:
       - conda: https://prefix.dev/conda-forge/linux-64/cairo-1.18.4-h3394656_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/catkin_pkg-1.0.0-pyhd8ed1ab_1.conda
       - conda: https://prefix.dev/conda-forge/linux-64/cffi-1.17.1-py311hf29c0ef_0.conda
+      - conda: https://prefix.dev/conda-forge/linux-64/clang-format-20-20.1.8-default_hddf928d_0.conda
+      - conda: https://prefix.dev/conda-forge/linux-64/clang-format-20.1.8-default_hddf928d_0.conda
       - conda: https://prefix.dev/conda-forge/linux-64/cmake-4.1.0-hc85cc9f_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/colcon-argcomplete-0.3.3-pyhd8ed1ab_1.conda
       - conda: https://prefix.dev/conda-forge/noarch/colcon-bash-0.5.0-pyhd8ed1ab_1.conda
@@ -951,8 +953,10 @@ environments:
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-action-tutorials-interfaces-0.20.5-np126py311hbc2a38a_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-action-tutorials-py-0.20.5-np126py311hbc2a38a_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-actionlib-msgs-4.9.0-np126py311hbc2a38a_13.conda
+      - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-ament-clang-format-0.12.12-np126py311hbc2a38a_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-ament-cmake-1.3.12-np126py311hbc2a38a_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-ament-cmake-auto-1.3.12-np126py311hbc2a38a_13.conda
+      - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-ament-cmake-clang-format-0.12.12-np126py311hbc2a38a_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-ament-cmake-copyright-0.12.12-np126py311hbc2a38a_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-ament-cmake-core-1.3.12-np126py311hbc2a38a_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-ament-cmake-cppcheck-0.12.12-np126py311hbc2a38a_13.conda
@@ -996,6 +1000,8 @@ environments:
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-ament-xmllint-0.12.12-np126py311hbc2a38a_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-angles-1.15.0-np126py311hbc2a38a_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-builtin-interfaces-1.2.1-np126py311hbc2a38a_13.conda
+      - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-camera-calibration-parsers-3.1.12-np126py311hbc2a38a_13.conda
+      - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-camera-info-manager-3.1.12-np126py311hbc2a38a_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-class-loader-2.2.0-np126py311hbc2a38a_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-common-interfaces-4.9.0-np126py311hbc2a38a_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-composition-0.20.5-np126py311hbc2a38a_13.conda
@@ -1339,6 +1345,8 @@ environments:
       - conda: https://prefix.dev/conda-forge/linux-aarch64/cairo-1.18.4-h83712da_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/catkin_pkg-1.0.0-pyhd8ed1ab_1.conda
       - conda: https://prefix.dev/conda-forge/linux-aarch64/cffi-1.17.1-py311h14e8bb7_0.conda
+      - conda: https://prefix.dev/conda-forge/linux-aarch64/clang-format-20-20.1.8-default_hf07bfb7_0.conda
+      - conda: https://prefix.dev/conda-forge/linux-aarch64/clang-format-20.1.8-default_hf07bfb7_0.conda
       - conda: https://prefix.dev/conda-forge/linux-aarch64/cmake-4.1.0-hc9d863e_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/colcon-argcomplete-0.3.3-pyhd8ed1ab_1.conda
       - conda: https://prefix.dev/conda-forge/noarch/colcon-bash-0.5.0-pyhd8ed1ab_1.conda
@@ -1640,8 +1648,10 @@ environments:
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-action-tutorials-interfaces-0.20.5-np126py311hbdd918e_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-action-tutorials-py-0.20.5-np126py311hbdd918e_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-actionlib-msgs-4.9.0-np126py311hbdd918e_13.conda
+      - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-ament-clang-format-0.12.12-np126py311hbdd918e_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-ament-cmake-1.3.12-np126py311hbdd918e_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-ament-cmake-auto-1.3.12-np126py311hbdd918e_13.conda
+      - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-ament-cmake-clang-format-0.12.12-np126py311hbdd918e_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-ament-cmake-copyright-0.12.12-np126py311hbdd918e_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-ament-cmake-core-1.3.12-np126py311hbdd918e_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-ament-cmake-cppcheck-0.12.12-np126py311hbdd918e_13.conda
@@ -1685,6 +1695,8 @@ environments:
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-ament-xmllint-0.12.12-np126py311hbdd918e_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-angles-1.15.0-np126py311hbdd918e_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-builtin-interfaces-1.2.1-np126py311hbdd918e_13.conda
+      - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-camera-calibration-parsers-3.1.12-np126py311hbdd918e_13.conda
+      - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-camera-info-manager-3.1.12-np126py311hbdd918e_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-class-loader-2.2.0-np126py311hbdd918e_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-common-interfaces-4.9.0-np126py311hbdd918e_13.conda
       - conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-composition-0.20.5-np126py311hbdd918e_13.conda
@@ -2022,6 +2034,8 @@ environments:
       - conda: https://prefix.dev/conda-forge/osx-64/cffi-1.17.1-py311h137bacd_0.conda
       - conda: https://prefix.dev/conda-forge/osx-64/clang-19-19.1.7-default_h3571c67_3.conda
       - conda: https://prefix.dev/conda-forge/osx-64/clang-19.1.7-default_h576c50e_3.conda
+      - conda: https://prefix.dev/conda-forge/osx-64/clang-format-20-20.1.8-default_hd2a208e_0.conda
+      - conda: https://prefix.dev/conda-forge/osx-64/clang-format-20.1.8-default_hd2a208e_0.conda
       - conda: https://prefix.dev/conda-forge/osx-64/clang_impl_osx-64-19.1.7-hc73cdc9_25.conda
       - conda: https://prefix.dev/conda-forge/osx-64/clang_osx-64-19.1.7-h7e5c614_25.conda
       - conda: https://prefix.dev/conda-forge/osx-64/clangxx-19.1.7-default_heb2e8d1_3.conda
@@ -2149,6 +2163,7 @@ environments:
       - conda: https://prefix.dev/conda-forge/osx-64/libcblas-3.9.0-34_hff6cab4_openblas.conda
       - conda: https://prefix.dev/conda-forge/osx-64/libclang-cpp17-17.0.6-default_h3571c67_8.conda
       - conda: https://prefix.dev/conda-forge/osx-64/libclang-cpp19.1-19.1.7-default_h3571c67_3.conda
+      - conda: https://prefix.dev/conda-forge/osx-64/libclang-cpp20.1-20.1.8-default_hd2a208e_0.conda
       - conda: https://prefix.dev/conda-forge/osx-64/libclang13-20.1.8-default_ha0cc96f_0.conda
       - conda: https://prefix.dev/conda-forge/osx-64/libcurl-8.14.1-h5dec5d8_0.conda
       - conda: https://prefix.dev/conda-forge/osx-64/libcxx-20.1.8-h3d58e20_1.conda
@@ -2297,8 +2312,10 @@ environments:
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-action-tutorials-interfaces-0.20.5-np126py311h3f9c716_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-action-tutorials-py-0.20.5-np126py311h3f9c716_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-actionlib-msgs-4.9.0-np126py311h3f9c716_13.conda
+      - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-ament-clang-format-0.12.12-np126py311h3f9c716_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-ament-cmake-1.3.12-np126py311h3f9c716_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-ament-cmake-auto-1.3.12-np126py311h3f9c716_13.conda
+      - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-ament-cmake-clang-format-0.12.12-np126py311h3f9c716_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-ament-cmake-copyright-0.12.12-np126py311h3f9c716_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-ament-cmake-core-1.3.12-np126py311h3f9c716_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-ament-cmake-cppcheck-0.12.12-np126py311h3f9c716_13.conda
@@ -2342,6 +2359,8 @@ environments:
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-ament-xmllint-0.12.12-np126py311h3f9c716_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-angles-1.15.0-np126py311h3f9c716_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-builtin-interfaces-1.2.1-np126py311h3f9c716_13.conda
+      - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-camera-calibration-parsers-3.1.12-np126py311h3f9c716_13.conda
+      - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-camera-info-manager-3.1.12-np126py311h3f9c716_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-class-loader-2.2.0-np126py311h3f9c716_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-common-interfaces-4.9.0-np126py311h3f9c716_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-composition-0.20.5-np126py311h3f9c716_13.conda
@@ -2659,6 +2678,8 @@ environments:
       - conda: https://prefix.dev/conda-forge/osx-arm64/cffi-1.17.1-py311h3a79f62_0.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/clang-19-19.1.7-default_hf90f093_3.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/clang-19.1.7-default_h474c9e2_3.conda
+      - conda: https://prefix.dev/conda-forge/osx-arm64/clang-format-20-20.1.8-default_h649e436_0.conda
+      - conda: https://prefix.dev/conda-forge/osx-arm64/clang-format-20.1.8-default_h649e436_0.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/clang_impl_osx-arm64-19.1.7-h76e6a08_25.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/clang_osx-arm64-19.1.7-h07b0088_25.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/clangxx-19.1.7-default_h1ffe849_3.conda
@@ -2786,6 +2807,7 @@ environments:
       - conda: https://prefix.dev/conda-forge/osx-arm64/libcblas-3.9.0-34_hb3479ef_openblas.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/libclang-cpp17-17.0.6-default_hf90f093_8.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/libclang-cpp19.1-19.1.7-default_hf90f093_3.conda
+      - conda: https://prefix.dev/conda-forge/osx-arm64/libclang-cpp20.1-20.1.8-default_h649e436_0.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/libclang13-20.1.8-default_h91d7d2a_0.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/libcurl-8.14.1-h73640d1_0.conda
       - conda: https://prefix.dev/conda-forge/osx-arm64/libcxx-20.1.8-hf598326_1.conda
@@ -2934,8 +2956,10 @@ environments:
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-action-tutorials-interfaces-0.20.5-np126py311h2a51a2c_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-action-tutorials-py-0.20.5-np126py311h2a51a2c_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-actionlib-msgs-4.9.0-np126py311h2a51a2c_13.conda
+      - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-ament-clang-format-0.12.12-np126py311h2a51a2c_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-ament-cmake-1.3.12-np126py311h2a51a2c_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-ament-cmake-auto-1.3.12-np126py311h2a51a2c_13.conda
+      - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-ament-cmake-clang-format-0.12.12-np126py311h2a51a2c_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-ament-cmake-copyright-0.12.12-np126py311h2a51a2c_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-ament-cmake-core-1.3.12-np126py311h2a51a2c_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-ament-cmake-cppcheck-0.12.12-np126py311h2a51a2c_13.conda
@@ -2979,6 +3003,8 @@ environments:
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-ament-xmllint-0.12.12-np126py311h2a51a2c_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-angles-1.15.0-np126py311h2a51a2c_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-builtin-interfaces-1.2.1-np126py311h2a51a2c_13.conda
+      - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-camera-calibration-parsers-3.1.12-np126py311h2a51a2c_13.conda
+      - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-camera-info-manager-3.1.12-np126py311h2a51a2c_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-class-loader-2.2.0-np126py311h2a51a2c_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-common-interfaces-4.9.0-np126py311h2a51a2c_13.conda
       - conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-composition-0.20.5-np126py311h2a51a2c_13.conda
@@ -3293,6 +3319,7 @@ environments:
       - conda: https://prefix.dev/conda-forge/win-64/cffi-1.17.1-py311he736701_0.conda
       - conda: https://prefix.dev/conda-forge/win-64/clang-19-19.1.7-default_hec7ea82_3.conda
       - conda: https://prefix.dev/conda-forge/win-64/clang-19.1.7-default_hec7ea82_3.conda
+      - conda: https://prefix.dev/conda-forge/win-64/clang-format-20.1.8-default_h7df9e1c_0.conda
       - conda: https://prefix.dev/conda-forge/win-64/cmake-4.1.0-hdcbee5b_0.conda
       - conda: https://prefix.dev/conda-forge/noarch/colcon-cmake-0.2.28-pyhd8ed1ab_0.conda
       - conda: https://prefix.dev/conda-forge/win-64/colcon-common-extensions-0.3.0-py311h1ea47a8_3.conda
@@ -3535,8 +3562,10 @@ environments:
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-action-tutorials-interfaces-0.20.5-np126py311hd5de103_13.conda
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-action-tutorials-py-0.20.5-np126py311hd5de103_13.conda
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-actionlib-msgs-4.9.0-np126py311hd5de103_13.conda
+      - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-ament-clang-format-0.12.12-np126py311hd5de103_13.conda
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-ament-cmake-1.3.12-np126py311hd5de103_13.conda
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-ament-cmake-auto-1.3.12-np126py311hd5de103_13.conda
+      - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-ament-cmake-clang-format-0.12.12-np126py311hd5de103_13.conda
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-ament-cmake-copyright-0.12.12-np126py311hd5de103_13.conda
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-ament-cmake-core-1.3.12-np126py311hd5de103_13.conda
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-ament-cmake-cppcheck-0.12.12-np126py311hd5de103_13.conda
@@ -3580,6 +3609,8 @@ environments:
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-ament-xmllint-0.12.12-np126py311hd5de103_13.conda
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-angles-1.15.0-np126py311hd5de103_13.conda
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-builtin-interfaces-1.2.1-np126py311hd5de103_13.conda
+      - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-camera-calibration-parsers-3.1.12-np126py311hd5de103_13.conda
+      - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-camera-info-manager-3.1.12-np126py311hd5de103_13.conda
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-class-loader-2.2.0-np126py311hd5de103_13.conda
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-common-interfaces-4.9.0-np126py311hd5de103_13.conda
       - conda: https://prefix.dev/robostack-humble/win-64/ros-humble-composition-0.20.5-np126py311hd5de103_13.conda
@@ -5173,6 +5204,119 @@ packages:
   license_family: Apache
   size: 34836407
   timestamp: 1747715402488
+- conda: https://prefix.dev/conda-forge/linux-64/clang-format-20.1.8-default_hddf928d_0.conda
+  sha256: 95ad7922c5671fe6ab7f0a1dffc02d79e51c44e3b2cd1ae2350f5fa575f02296
+  md5: 96baf91e2f2fb0a8bb685d2719e7e31d
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - clang-format-20 20.1.8 default_hddf928d_0
+  - libclang-cpp20.1 >=20.1.8,<20.2.0a0
+  - libgcc >=14
+  - libllvm20 >=20.1.8,<20.2.0a0
+  - libstdcxx >=14
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 24481
+  timestamp: 1752223951857
+- conda: https://prefix.dev/conda-forge/linux-aarch64/clang-format-20.1.8-default_hf07bfb7_0.conda
+  sha256: 3d30ca3d6330669095d2a7fdb63160fcc3526332749cb2320659ff721afb8690
+  md5: 15eb0e23002a95b852fd772f8044844b
+  depends:
+  - clang-format-20 20.1.8 default_hf07bfb7_0
+  - libclang-cpp20.1 >=20.1.8,<20.2.0a0
+  - libgcc >=14
+  - libllvm20 >=20.1.8,<20.2.0a0
+  - libstdcxx >=14
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 24651
+  timestamp: 1752227915709
+- conda: https://prefix.dev/conda-forge/osx-64/clang-format-20.1.8-default_hd2a208e_0.conda
+  sha256: 3b9da723e6d4079d3f5e88bc7c353ba02ef98bda70f0891745f26a4622bbcb6c
+  md5: 659db2eb9f99d0629226e1ae21d64a7f
+  depends:
+  - __osx >=10.13
+  - clang-format-20 20.1.8 default_hd2a208e_0
+  - libclang-cpp20.1 >=20.1.8,<20.2.0a0
+  - libcxx >=20.1.8
+  - libllvm20 >=20.1.8,<20.2.0a0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 24541
+  timestamp: 1752220755967
+- conda: https://prefix.dev/conda-forge/osx-arm64/clang-format-20.1.8-default_h649e436_0.conda
+  sha256: da9efa78adaa14581f0a2cb837c04ec4efb1dd4862520dea8ce64ec064cf2969
+  md5: 0b9326a014aa019ea7e920d5e79bc10c
+  depends:
+  - __osx >=11.0
+  - clang-format-20 20.1.8 default_h649e436_0
+  - libclang-cpp20.1 >=20.1.8,<20.2.0a0
+  - libcxx >=20.1.8
+  - libllvm20 >=20.1.8,<20.2.0a0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 24674
+  timestamp: 1752220084963
+- conda: https://prefix.dev/conda-forge/win-64/clang-format-20.1.8-default_h7df9e1c_0.conda
+  sha256: 69ffd1b59b381787ef2ddaaaed7808eb0687edf5c920c27a8f65d534d1cf124a
+  md5: 60b676b8ee6d419dcdf7ac0b78782a1d
+  depends:
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 1219977
+  timestamp: 1752232768013
+- conda: https://prefix.dev/conda-forge/linux-64/clang-format-20-20.1.8-default_hddf928d_0.conda
+  sha256: 890268cdcab41e46c9f9d1b6967dcd5ff9d847c81ddd18658bf7f2f4d1e807a4
+  md5: a1513a9fc49a5765d23f2862b49c86c7
+  depends:
+  - __glibc >=2.17,<3.0.a0
+  - libclang-cpp20.1 >=20.1.8,<20.2.0a0
+  - libgcc >=14
+  - libllvm20 >=20.1.8,<20.2.0a0
+  - libstdcxx >=14
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 67788
+  timestamp: 1752223900328
+- conda: https://prefix.dev/conda-forge/linux-aarch64/clang-format-20-20.1.8-default_hf07bfb7_0.conda
+  sha256: efcddc0ce3788bd40c19bd3bbdaf702ef2b8885e092058172665a74bb4afe736
+  md5: 182b01e7217b580844572e1c1b9f84ad
+  depends:
+  - libclang-cpp20.1 >=20.1.8,<20.2.0a0
+  - libgcc >=14
+  - libllvm20 >=20.1.8,<20.2.0a0
+  - libstdcxx >=14
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 68690
+  timestamp: 1752227877817
+- conda: https://prefix.dev/conda-forge/osx-64/clang-format-20-20.1.8-default_hd2a208e_0.conda
+  sha256: da5553d78d07cdef365f6d8614cce1d82d12cfa7c0779380157d466dab2bd666
+  md5: 832fac2b19ddbd8e90f653b1b73aebb9
+  depends:
+  - __osx >=10.13
+  - libclang-cpp20.1 >=20.1.8,<20.2.0a0
+  - libcxx >=20.1.8
+  - libllvm20 >=20.1.8,<20.2.0a0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 63681
+  timestamp: 1752220678499
+- conda: https://prefix.dev/conda-forge/osx-arm64/clang-format-20-20.1.8-default_h649e436_0.conda
+  sha256: 78ab6410d1dc3cc6d68b2170a94a4633d2c84b888ddebe8bcf4036afa6225530
+  md5: 5b65076b69f08b26354730f5eedb0526
+  depends:
+  - __osx >=11.0
+  - libclang-cpp20.1 >=20.1.8,<20.2.0a0
+  - libcxx >=20.1.8
+  - libllvm20 >=20.1.8,<20.2.0a0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 61664
+  timestamp: 1752220012110
 - conda: https://prefix.dev/conda-forge/osx-64/clang_impl_osx-64-19.1.7-hc73cdc9_25.conda
   sha256: 88edc0b34affbfffcec5ffea59b432ee3dd114124fd4d5f992db6935421f4a64
   md5: 76954503be09430fb7f4683a61ffb7b0
@@ -11338,6 +11482,28 @@ packages:
   license_family: Apache
   size: 20787483
   timestamp: 1752227588867
+- conda: https://prefix.dev/conda-forge/osx-64/libclang-cpp20.1-20.1.8-default_hd2a208e_0.conda
+  sha256: 751c516469ace0d0b6ebb486cf6328ced974e07e27e7172a4bd04aafad465ec6
+  md5: ee965f1346285464e5fa945d06eb270e
+  depends:
+  - __osx >=10.13
+  - libcxx >=20.1.8
+  - libllvm20 >=20.1.8,<20.2.0a0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 14694382
+  timestamp: 1752220199202
+- conda: https://prefix.dev/conda-forge/osx-arm64/libclang-cpp20.1-20.1.8-default_h649e436_0.conda
+  sha256: 339b2fcfb3cda389f815546c9bbffd25658c81109172e7ed07a5556fc88bb66b
+  md5: 5b1771651a8d65c87f816d80f4bfde4e
+  depends:
+  - __osx >=11.0
+  - libcxx >=20.1.8
+  - libllvm20 >=20.1.8,<20.2.0a0
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: Apache
+  size: 13926062
+  timestamp: 1752219561828
 - conda: https://prefix.dev/conda-forge/linux-64/libclang13-20.1.8-default_ha444ac7_0.conda
   sha256: 39fdf9616df5dd13dee881fc19e8f9100db2319e121d9b673a3fc6a0c76743a3
   md5: 783f9cdcb0255ed00e3f1be22e16de40
@@ -20610,6 +20776,98 @@ packages:
   license: BSD-3-Clause
   size: 105499
   timestamp: 1753325459132
+- conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-ament-clang-format-0.12.12-np126py311hbc2a38a_13.conda
+  sha256: c136fea0facb65c94e95228cc70ce13dad5a0fb8400d9192c23e478aa7563507
+  md5: c6bd6016ac712e7dc6497dd3c2d47221
+  depends:
+  - clang-format
+  - python
+  - pyyaml
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libstdcxx >=13
+  - libgcc >=13
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=13
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 30470
+  timestamp: 1753308352674
+- conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-ament-clang-format-0.12.12-np126py311hbdd918e_13.conda
+  sha256: 548b8aaabb13f19f6d425153ce224989eaf552edbe2fb74d630770825f434e9f
+  md5: d87e5c1f0304e10fc647b2c12ac2ead9
+  depends:
+  - clang-format
+  - python
+  - pyyaml
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libstdcxx >=13
+  - libgcc >=13
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 30327
+  timestamp: 1753308467564
+- conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-ament-clang-format-0.12.12-np126py311h3f9c716_13.conda
+  sha256: fff3fdf6ff78530a844ae7b816524d6ac208175173e1aa7c620d63898839ed29
+  md5: a375faf2249b8baf164d88fe6cfe90ef
+  depends:
+  - clang-format
+  - python
+  - pyyaml
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=10.14
+  - libcxx >=18
+  - __osx >=10.13
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 30420
+  timestamp: 1753309231959
+- conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-ament-clang-format-0.12.12-np126py311h2a51a2c_13.conda
+  sha256: f9e765db9870b0044da35d82cca7c17f7701d000ca8119b3dbbb167e9b58a73b
+  md5: 716b14ed7b7ca95d31e47ea44594e9d5
+  depends:
+  - clang-format
+  - python
+  - pyyaml
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 30566
+  timestamp: 1753308661398
+- conda: https://prefix.dev/robostack-humble/win-64/ros-humble-ament-clang-format-0.12.12-np126py311hd5de103_13.conda
+  sha256: 11c8953ea518b328b20e3c515381feb22c07124cb71f83a52c6cd4e103e1e7cb
+  md5: 54fbab3ec4d78aac089ae74a80c8c6dc
+  depends:
+  - clang-format
+  - python
+  - pyyaml
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  - ucrt >=10.0.20348.0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 35466
+  timestamp: 1753312243370
 - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-ament-cmake-1.3.12-np126py311hbc2a38a_13.conda
   sha256: 4d6e11bc6d3f105a41def2d370bdc3f83721a8242cda74015d8dfdd4b687adbc
   md5: 1649629c82db4f2fba285a7d833bcffc
@@ -20865,6 +21123,98 @@ packages:
   license: BSD-3-Clause
   size: 23842
   timestamp: 1753312788917
+- conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-ament-cmake-clang-format-0.12.12-np126py311hbc2a38a_13.conda
+  sha256: 8e3b256800e9011d8b72c8556974271890fdb88da0082b68a54e3ae626fd409a
+  md5: 7e2c89c210a93fc742c34254e8439c38
+  depends:
+  - python
+  - ros-humble-ament-clang-format
+  - ros-humble-ament-cmake-test
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libgcc >=13
+  - libstdcxx >=13
+  - libgcc >=13
+  - __glibc >=2.17,<3.0.a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 23679
+  timestamp: 1753309037855
+- conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-ament-cmake-clang-format-0.12.12-np126py311hbdd918e_13.conda
+  sha256: 8684c0dbab0013625db2118b71bc9c92835ab6934378a54cb6f1ee366d34e600
+  md5: 7cdb882769bf08dc80125b334ab18739
+  depends:
+  - python
+  - ros-humble-ament-clang-format
+  - ros-humble-ament-cmake-test
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libstdcxx >=13
+  - libgcc >=13
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 23480
+  timestamp: 1753309033959
+- conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-ament-cmake-clang-format-0.12.12-np126py311h3f9c716_13.conda
+  sha256: 079dd52974769bfb7e7f6942e404bc80b47a7210c1efa54816508b0950904332
+  md5: a6a5509d5e033d0f1a8541df2fec1e93
+  depends:
+  - python
+  - ros-humble-ament-clang-format
+  - ros-humble-ament-cmake-test
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=10.14
+  - libcxx >=18
+  - __osx >=10.13
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 23554
+  timestamp: 1753310732747
+- conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-ament-cmake-clang-format-0.12.12-np126py311h2a51a2c_13.conda
+  sha256: 12a89142658e33c8e9b672b45b474c438d397d56811090e3973d7e1e26fa857a
+  md5: e3fc7033e064d3aebe3aedde2c1fc270
+  depends:
+  - python
+  - ros-humble-ament-clang-format
+  - ros-humble-ament-cmake-test
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 23740
+  timestamp: 1753309355834
+- conda: https://prefix.dev/robostack-humble/win-64/ros-humble-ament-cmake-clang-format-0.12.12-np126py311hd5de103_13.conda
+  sha256: e743221349bd797087f08ad50d14a56eb8159eced55fbefb257d06c2ecd7b2c9
+  md5: 93f7a476472140d10b2c176232b1fc43
+  depends:
+  - python
+  - ros-humble-ament-clang-format
+  - ros-humble-ament-cmake-test
+  - ros-humble-ros-workspace
+  - ros2-distro-mutex 0.7.* humble_*
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  - ucrt >=10.0.20348.0
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 20142
+  timestamp: 1753315355497
 - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-ament-cmake-copyright-0.12.12-np126py311hbc2a38a_13.conda
   sha256: d68dd586d2388be605090ac9f64e73e4f1d9a7f0a43fd7f5d6f7fff4f2358863
   md5: d8d8e3a0e90335d4f16942efd172a947
@@ -24788,6 +25138,217 @@ packages:
   license: BSD-3-Clause
   size: 80157
   timestamp: 1753323072448
+- conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-camera-calibration-parsers-3.1.12-np126py311hbc2a38a_13.conda
+  sha256: 2425a152a97b7b3d984524e89914922b9d8652a7441c35d0730154d4c522f393
+  md5: f7034ccfca8998c143d570993a2b3843
+  depends:
+  - python
+  - ros-humble-rclcpp
+  - ros-humble-rcpputils
+  - ros-humble-ros-workspace
+  - ros-humble-sensor-msgs
+  - ros-humble-yaml-cpp-vendor
+  - ros2-distro-mutex 0.7.* humble_*
+  - libgcc >=13
+  - __glibc >=2.17,<3.0.a0
+  - libstdcxx >=13
+  - libgcc >=13
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 103148
+  timestamp: 1753313131022
+- conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-camera-calibration-parsers-3.1.12-np126py311hbdd918e_13.conda
+  sha256: 6006b1879e7e32cba3fc56d5386644cc3c91dcadc2e817b2d61d2f7bdb66710b
+  md5: b566220010fae6cbf6e7e88eaa459080
+  depends:
+  - python
+  - ros-humble-rclcpp
+  - ros-humble-rcpputils
+  - ros-humble-ros-workspace
+  - ros-humble-sensor-msgs
+  - ros-humble-yaml-cpp-vendor
+  - ros2-distro-mutex 0.7.* humble_*
+  - libgcc >=13
+  - libstdcxx >=13
+  - libgcc >=13
+  - python_abi 3.11.* *_cp311
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 103455
+  timestamp: 1753313361949
+- conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-camera-calibration-parsers-3.1.12-np126py311h3f9c716_13.conda
+  sha256: 024572d02fa775f06fbe54e6ff470199b76c42cb483bf4eaf20a974825c5fb1f
+  md5: fbc65c8093e0811bad542cfb384a4a5a
+  depends:
+  - python
+  - ros-humble-rclcpp
+  - ros-humble-rcpputils
+  - ros-humble-ros-workspace
+  - ros-humble-sensor-msgs
+  - ros-humble-yaml-cpp-vendor
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=10.14
+  - libcxx >=18
+  - __osx >=10.13
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 85916
+  timestamp: 1753319701584
+- conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-camera-calibration-parsers-3.1.12-np126py311h2a51a2c_13.conda
+  sha256: be776107f2c627e79533e8467fad5560aee8bc1c1d87a3de77015924c6ff19bb
+  md5: 0e053081201650637d03aeccae112a0d
+  depends:
+  - python
+  - ros-humble-rclcpp
+  - ros-humble-rcpputils
+  - ros-humble-ros-workspace
+  - ros-humble-sensor-msgs
+  - ros-humble-yaml-cpp-vendor
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 87973
+  timestamp: 1753313257090
+- conda: https://prefix.dev/robostack-humble/win-64/ros-humble-camera-calibration-parsers-3.1.12-np126py311hd5de103_13.conda
+  sha256: d839b9ed022a0811d6e1f6fd3ad5e5df1b84273ff61adae05d664dcc045ffe84
+  md5: 3a52f8ca7e0689ef721d8c2661ad256f
+  depends:
+  - python
+  - ros-humble-rclcpp
+  - ros-humble-rcpputils
+  - ros-humble-ros-workspace
+  - ros-humble-sensor-msgs
+  - ros-humble-yaml-cpp-vendor
+  - ros2-distro-mutex 0.7.* humble_*
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  - ucrt >=10.0.20348.0
+  - numpy >=1.26.4,<2.0a0
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 82327
+  timestamp: 1753332092661
+- conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-camera-info-manager-3.1.12-np126py311hbc2a38a_13.conda
+  sha256: 7b29d5047d12dca4de6eb7d681307e03511d27e013f75aa7b56fa504f9c71e65
+  md5: abc99d5d8cf825d38d178d0a44f7e917
+  depends:
+  - python
+  - ros-humble-ament-index-cpp
+  - ros-humble-camera-calibration-parsers
+  - ros-humble-rclcpp
+  - ros-humble-rcpputils
+  - ros-humble-ros-workspace
+  - ros-humble-sensor-msgs
+  - ros2-distro-mutex 0.7.* humble_*
+  - __glibc >=2.17,<3.0.a0
+  - libgcc >=13
+  - libstdcxx >=13
+  - libgcc >=13
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 76326
+  timestamp: 1753313478863
+- conda: https://prefix.dev/robostack-humble/linux-aarch64/ros-humble-camera-info-manager-3.1.12-np126py311hbdd918e_13.conda
+  sha256: 04657d7096f5532b5d2eb45018a7eba7af604310533c8e9b80aad47c788bde06
+  md5: abaaab70969a4b722eb71e0351271067
+  depends:
+  - python
+  - ros-humble-ament-index-cpp
+  - ros-humble-camera-calibration-parsers
+  - ros-humble-rclcpp
+  - ros-humble-rcpputils
+  - ros-humble-ros-workspace
+  - ros-humble-sensor-msgs
+  - ros2-distro-mutex 0.7.* humble_*
+  - libgcc >=13
+  - libstdcxx >=13
+  - libgcc >=13
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 76057
+  timestamp: 1753313636365
+- conda: https://prefix.dev/robostack-humble/osx-64/ros-humble-camera-info-manager-3.1.12-np126py311h3f9c716_13.conda
+  sha256: c78d3df387b774065d6341010a489c3b88be493a19720485ff941b75537d5c74
+  md5: 077e6a15680f518359161098e8b2304a
+  depends:
+  - python
+  - ros-humble-ament-index-cpp
+  - ros-humble-camera-calibration-parsers
+  - ros-humble-rclcpp
+  - ros-humble-rcpputils
+  - ros-humble-ros-workspace
+  - ros-humble-sensor-msgs
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=10.14
+  - __osx >=10.13
+  - libcxx >=18
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  - numpy >=1.26.4,<2.0a0
+  license: BSD-3-Clause
+  size: 68752
+  timestamp: 1753320707866
+- conda: https://prefix.dev/robostack-humble/osx-arm64/ros-humble-camera-info-manager-3.1.12-np126py311h2a51a2c_13.conda
+  sha256: 00aeed7d4d73e80920818afb0246c39b6ee2c83b801cf7ba78bfce7a15a6972f
+  md5: 629d419eff1663f81db2f51502a3b8e4
+  depends:
+  - python
+  - ros-humble-ament-index-cpp
+  - ros-humble-camera-calibration-parsers
+  - ros-humble-rclcpp
+  - ros-humble-rcpputils
+  - ros-humble-ros-workspace
+  - ros-humble-sensor-msgs
+  - ros2-distro-mutex 0.7.* humble_*
+  - __osx >=11.0
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 66268
+  timestamp: 1753313520892
+- conda: https://prefix.dev/robostack-humble/win-64/ros-humble-camera-info-manager-3.1.12-np126py311hd5de103_13.conda
+  sha256: 4dc683a204576e0e45377f52dce2a8b8070d5455cf9a43b23c381e2b24c91163
+  md5: abe7105f8bb2bc885a1278cf992b34b1
+  depends:
+  - python
+  - ros-humble-ament-index-cpp
+  - ros-humble-camera-calibration-parsers
+  - ros-humble-rclcpp
+  - ros-humble-rcpputils
+  - ros-humble-ros-workspace
+  - ros-humble-sensor-msgs
+  - ros2-distro-mutex 0.7.* humble_*
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  - ucrt >=10.0.20348.0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.7.0,<0.8.0a0
+  license: BSD-3-Clause
+  size: 66064
+  timestamp: 1753333336980
 - conda: https://prefix.dev/robostack-humble/linux-64/ros-humble-class-loader-2.2.0-np126py311hbc2a38a_13.conda
   sha256: 681dd456a487610aedf0c9d09cbb909aabcd95de67fe776df5c201234646cb47
   md5: acc14ffcacb6034011f1dab226c6f954

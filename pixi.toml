@@ -50,3 +50,5 @@ channels = ["https://prefix.dev/robostack-humble"]
 
 [feature.humble.dependencies]
 ros-humble-desktop = "*"
+ros-humble-camera-info-manager = ">=3.1.12,<4"
+ros-humble-ament-cmake-clang-format = ">=0.12.12,<0.13"
