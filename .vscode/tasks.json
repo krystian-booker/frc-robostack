@@ -2,21 +2,25 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "source env",
-      "type": "shell",
-      "command": "pixi shell -e humble",
-      "problemMatcher": []
-    },
-    {
       "label": "build",
       "type": "shell",
-      "command": "colcon build",
-      "problemMatcher": []
+      "command": "pixi run -e humble build",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     },
     {
       "label": "clean",
       "type": "shell",
-      "command": "rm -rf build install log",
+      "command": "pixi run -e humble clean",
+      "problemMatcher": []
+    },
+    {
+      "label": "submodules update",
+      "type": "shell",
+      "command": "git submodule update --init --recursive",
       "problemMatcher": []
     }
   ]

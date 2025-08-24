@@ -10,17 +10,19 @@ scripts = ["install/setup.bat"]
 
 [target.unix.activation]
 # For activation scripts, we use bash for Unix-like systems
-scripts = ["install/setup.bash"] 
+scripts = ["install/setup.bash"]
 
 [target.win-64.dependencies]
 # vs2022_win-64 = "*"  # Uncomment if using Visual Studio 2022
 
 # To build you can use - `pixi run -e <ros distro> build <Any other temporary args>`
 [feature.build.target.win-64.tasks]
-build = "colcon build --merge-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DPython_FIND_VIRTUALENV=ONLY -DPython3_FIND_VIRTUALENV=ONLY"
+build = "colcon build --merge-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DPython_FIND_VIRTUALENV=ONLY -DPython3_FIND_VIRTUALENV=ONLY -DCMAKE_BUILD_TYPE=RelWithDebInfo"
+clean = "rm -rf build install log"
 
 [feature.build.target.unix.tasks]
-build = "colcon build --symlink-install --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DPython_FIND_VIRTUALENV=ONLY -DPython3_FIND_VIRTUALENV=ONLY"
+build = "colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DPython_FIND_VIRTUALENV=ONLY -DPython3_FIND_VIRTUALENV=ONLY"
+clean = "rm -rf build install log"
 
 # Dependencies used by all environments
 [dependencies]
