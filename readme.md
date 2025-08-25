@@ -14,3 +14,11 @@ pixi run -e humble build
 ```bash
 pixi run -e humble clean
 ```
+
+### Add package
+```bash
+pixi add --feature humble ros-humble-rmw-cyclonedds-cpp
+```
+
+
+. install/setup.zsh

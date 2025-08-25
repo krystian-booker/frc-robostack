@@ -17,7 +17,7 @@ scripts = ["install/setup.bash"]
 
 # Define the build task
 [feature.build.target.unix.tasks.build]
-cmd = "colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DPython_FIND_VIRTUALENV=ONLY -DPython3_FIND_VIRTUALENV=ONLY"
+cmd = "colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_EXPORT_COMPILE_COMMANDS=ON"
 
 # Define the clean task
 [feature.build.target.unix.tasks.clean]
@@ -25,7 +25,7 @@ cmd = "rm -rf build install log"
 
 # Define the run-driver task
 [feature.build.target.unix.tasks.run-driver]
-cmd = ["bash", "-c", ". install/setup.bash && ros2 launch spinnaker_camera_driver driver_node.launch.py camera_type:=chameleon serial:='20435008'"]
+cmd = ["bash", "-c", ". install/setup.bash && ros2 launch spinnaker_camera_driver driver_node.launch.py camera_type:=chameleon serial:='17301975'"]
 
 # Define the rebuild task
 [feature.build.target.unix.tasks.rebuild]
@@ -57,7 +57,11 @@ humble = { features = ["humble", "build"] }
 [feature.humble]
 channels = ["https://prefix.dev/robostack-humble"]
 
+[activation]
+env = { RMW_IMPLEMENTATION = "rmw_fastrtps_cpp", FASTRTPS_DEFAULT_PROFILES_FILE = "./fastdds_localhost.xml" }
+
 [feature.humble.dependencies]
 ros-humble-desktop = "*"
 ros-humble-camera-info-manager = ">=3.1.12,<4"
 ros-humble-ament-cmake-clang-format = ">=0.12.12,<0.13"
+ros-humble-rmw-fastrtps-cpp = ">=6.2.7,<7"
