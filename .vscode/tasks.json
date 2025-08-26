@@ -2,16 +2,6 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build: humble",
-      "type": "shell",
-      "command": "pixi run -e humble build",
-      "problemMatcher": [],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      }
-    },
-    {
       "label": "rebuild: humble",
       "type": "shell",
       "command": "pixi run -e humble rebuild",
@@ -21,6 +11,12 @@
       "label": "run driver: humble",
       "type": "shell",
       "command": "pixi run -e humble run-driver",
+      "problemMatcher": []
+    },
+    {
+      "label": "run multi-driver: humble",
+      "type": "shell",
+      "command": "pixi run -e humble run-multi-driver",
       "problemMatcher": []
     },
     {

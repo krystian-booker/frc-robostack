@@ -27,6 +27,10 @@ cmd = "rm -rf build install log"
 [feature.build.target.unix.tasks.run-driver]
 cmd = ["bash", "-c", ". install/setup.bash && ros2 launch spinnaker_camera_driver driver_node.launch.py camera_type:=chameleon serial:='17301975'"]
 
+# Define the run-multi-driver task
+[feature.build.target.unix.tasks.run-multi-driver]
+cmd = ["bash", "-c", ". install/setup.bash && ros2 launch spinnaker_synchronized_camera_driver primary_secondary.launch.py"]
+
 # Define the rebuild task
 [feature.build.target.unix.tasks.rebuild]
 depends-on = ["clean", "build"]

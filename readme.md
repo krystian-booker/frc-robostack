@@ -20,5 +20,8 @@ pixi run -e humble clean
 pixi add --feature humble ros-humble-rmw-cyclonedds-cpp
 ```
 
-
+### Manually start 
+```bash
+pixi shell -e humble
 . install/setup.zsh
+```
